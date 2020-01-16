@@ -1,0 +1,13 @@
+name_json = {
+              name: @name
+            }
+
+if @message
+  name_json[:message] = @message
+end 
+
+name_json
+# {
+#   name: @name,
+#   message: @message
+# }
